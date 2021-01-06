@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     margin:0;
     padding: 0;
@@ -26,9 +30,10 @@ body {
     float: left;
     margin-left: 5%;
     padding: 2%;
+    margin-top: 50px;
 }
 #first_heading{
-    font-size: 72px;
+    font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -80,7 +85,7 @@ body {
     position: center;
     padding-top: 300px;
 }
-.card_1{
+#card_1{
     width: 20%;
     margin-left: 120px;
     margin-right: 60px;
@@ -194,4 +199,47 @@ body {
     margin-left: -90px;
     width: 30px;
     margin-bottom: 100px;
+}
+.learned1{
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    margin-top: 200px;
+    border-radius: 100px;
+    background-color: #F46060;
+    border: 3px solid #ffe001e0;
+}
+.learned2{
+    float: left;
+    margin: 20px;
+    color: white;
+    padding: 20px 30px;
+    margin-top: 200px;
+    border-radius: 100px;
+    background-color: #F46060;
+    border: 3px solid #ffe001e0;
+
+}
+.learned3{
+    float: left;
+    margin: 20px;
+    color: white;
+    padding: 20px 25px;
+    margin-top: 200px;
+    border-radius: 100px;
+    background-color:  #F46060;
+    border: 3px solid #ffe001e0;
+
+}
+.learned4{
+    float: left;
+    margin: 20px;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 100px;
+    margin-top: 200px;
+    background-color: #F46060;
+    border: 3px solid #ffe001e0;
+
 }
