@@ -1,0 +1,17 @@
+
+
+#menu{
+    width: 100%;
+    position: absolute;
+}
+#menu_ul{
+    list-style-type: none;
+    float: right;
+}
+#menu_ul_li{
+    float: left;
+    margin: 10px;
+    font-size: 24px;
+    color: #3C3C3C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
