@@ -6,15 +6,17 @@ body {
 #menu{
     width: 100%;
     position: absolute;
+    background-color: #2a9cfe24;
 }
 #menu_ul{
     list-style-type: none;
+    margin-right: 20px;
     float: right;
 }
 #menu_ul_li{
     float: left;
     margin: 10px;
-    font-size: 24px;
+    font-size: 18px;
     color: #3C3C3C;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -35,7 +37,7 @@ body {
     margin: 5%;
     margin-top: 100px;
 }
-#image{
+.image{
     width: 100%;
 }
 .details{
@@ -49,4 +51,21 @@ body {
     text-decoration: none;
     background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
     border-radius: 6px;
+}
+#second_image{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    margin-top: 250px;
+}
+#about{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+#about_div{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    padding: 2%;
 }
